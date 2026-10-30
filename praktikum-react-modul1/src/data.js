@@ -1,0 +1,53 @@
+export const profil = {
+  nama: 'Nazala qisti',
+  npm: '243040084',
+  prodi: 'Informatika - Universitas Pasundan',
+  kelas: 'Praktikum Web - Modul 1',
+};
+
+export const daftarProyek = [
+  {
+    id: 1,
+    ikon: '📝',
+    judul: 'Aplikasi To-Do List',
+    deskripsi: 'Aplikasi pencatat tugas harian dengan fitur tambah dan hapus tugas.',
+    kategori: 'Web App',
+    tahun: 2026,
+    teknologi: ['React', 'JavaScript', 'CSS'],
+    repoUrl: 'https://github.com/nazalaemin/ngoding',
+    demoUrl: '',
+  },
+  {
+    id: 2,
+    ikon: '🏫',
+    judul: 'Landing Page Kampus',
+    deskripsi: 'Halaman profil kampus yang responsif untuk layar desktop dan mobile.',
+    kategori: 'Website',
+    tahun: 2026,
+    teknologi: ['HTML', 'CSS', 'JavaScript'],
+    repoUrl: 'https://github.com/nazalaemin/ngoding',
+    demoUrl: '',
+  },
+  {
+    id: 3,
+    ikon: '🧮',
+    judul: 'Kalkulator Sederhana',
+    deskripsi: 'Kalkulator dasar yang mendukung operasi tambah, kurang, kali, dan bagi.',
+    kategori: 'Web App',
+    tahun: 2026,
+    teknologi: ['React', 'Vite'],
+    repoUrl: 'https://github.com/nazalaemin/ngoding',
+    demoUrl: '',
+  },
+  {
+    id: 4,
+    ikon: '📚',
+    judul: 'Katalog Buku',
+    deskripsi: 'Daftar buku yang ditampilkan dari array data menggunakan list rendering.',
+    kategori: 'Latihan React',
+    tahun: 2026,
+    teknologi: ['React', 'Props', 'Vite'],
+    repoUrl: 'https://github.com/nazalaemin/ngoding',
+    demoUrl: '',
+  },
+];
